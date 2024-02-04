@@ -1,6 +1,6 @@
 from helpers.execution import execution
 from helpers.recursive_execution import recursive_execution
-from sorting_algorithms import bubble_sort, selection_sort, quick_sort, insertion_sort
+from sorting_algorithms import bubble_sort, selection_sort, quick_sort, insertion_sort, merge_sort
 
 
 def show_menu():
@@ -27,8 +27,8 @@ def show_menu():
                 execution(bubble_sort.bubble_sort)
             elif choice == "2":
                 execution(selection_sort.selection_sort)
-            # elif choice == "3":
-            #     merge_sort.run_example()
+            elif choice == "3":
+                execution(merge_sort.merge_sort)
             elif choice == "4":
                 recursive_execution(quick_sort.quick_sort)
             elif choice == "5":

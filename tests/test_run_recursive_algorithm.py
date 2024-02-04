@@ -11,7 +11,6 @@ class RunRecursiveAlgorithmTestCase(unittest.TestCase):
     def test_quick_sort(self):
         sortable = list(np.random.rand(50))
         sortable = quick_sort(sortable)
-
         self.assertEqual(True, check_sorted(sortable))  # add assertion here
 
     def test_run_recursive_algorithm(self):
