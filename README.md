@@ -11,10 +11,11 @@ Features
 
 *   **Sorting Algorithms:**
     
-    *   Bubble Sort
+    *   Bubble Sort  
+    *   Selection Sort
+    *   Insertion Sort
     *   Merge Sort
     *   Quick Sort
-    *   Insertion Sort
 *   **Data Structures:**
     
     *   Lists
