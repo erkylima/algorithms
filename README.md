@@ -33,28 +33,28 @@ How to Use
 
 1.  Clone the repository to your local machine:
     
-    bashCopy code
+    ```bash
     
     `git clone https://github.com/erkylima/algorithms.git`
-    
+    ```
 2.  Navigate to the project directory:
     
-    bashCopy code
+    ```bash
     
     `cd algorithms`
-    
+    ```
 3.  Run the Python scripts corresponding to the desired algorithms and data structures:
     
-    bashCopy code
+    ```bash
     
     `python main.py`
-    
+    ```
 4.  Explore the challenges available in the `challenges/` directory:
     
-    bashCopy code
+    ```bash
     
     `cd challenges`
-    
+    ```
 5.  Contribute: Feel free to add new algorithms, data structures, or challenges. Open a pull request to share your knowledge with the community.
     
 
@@ -67,24 +67,24 @@ Contributions are welcome! Follow these steps to contribute:
     
 2.  Create a branch for your contribution:
     
-    bashCopy code
+    ```bash
     
     `git checkout -b my-contribution`
-    
+    ```
 3.  Make the desired changes and add documentation when necessary.
     
 4.  Commit your changes:
     
-    bashCopy code
+    ```bash
     
     `git commit -m "Add binary search algorithm"`
-    
+    ```
 5.  Push to the branch:
     
-    bashCopy code
+    ```bash
     
     `git push origin my-contribution`
-    
+    ```
 6.  Open a Pull Request.
     
 
