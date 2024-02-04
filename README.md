@@ -1,83 +1,94 @@
-# Projeto Reciclar Conhecimento - Algoritmos e Estruturas de Dados
+Project Recycle Knowledge - Algorithms and Data Structures
+==========================================================
 
-## Descrição do Projeto
+Project Description
+-------------------
 
-Este projeto tem como objetivo proporcionar um ambiente interativo para a reciclagem de conhecimento em algoritmos e estruturas de dados utilizando a linguagem de programação Python. A ideia é fornecer exemplos práticos, explicações claras e desafios para que os usuários possam aprimorar suas habilidades na resolução de problemas relacionados a algoritmos e estruturas de dados.
+This project aims to provide an interactive environment for recycling knowledge in algorithms and data structures using the Python programming language. The idea is to provide practical examples, clear explanations, and challenges so that users can enhance their skills in solving problems related to algorithms and data structures.
 
-## Funcionalidades
+Features
+--------
 
-- **Algoritmos de Ordenação:**
-  - Bubble Sort
-  - Merge Sort
-  - Quick Sort
-  - Insertion Sort
+*   **Sorting Algorithms:**
+    
+    *   Bubble Sort
+    *   Merge Sort
+    *   Quick Sort
+    *   Insertion Sort
+*   **Data Structures:**
+    
+    *   Lists
+    *   Stacks
+    *   Queues
+    *   Trees
+*   **Challenges:**
+    
+    *   Diverse set of challenges to practice the learned concepts.
+*   **Clear Documentation:**
+    
+    *   Detailed explanations for each implemented algorithm and data structure.
 
-- **Estruturas de Dados:**
-  - Listas
-  - Pilhas
-  - Filas
-  - Árvores
+How to Use
+----------
 
-- **Desafios:**
-  - Conjunto diversificado de desafios para praticar os conceitos aprendidos.
+1.  Clone the repository to your local machine:
+    
+    bashCopy code
+    
+    `git clone https://github.com/erkylima/algorithms.git`
+    
+2.  Navigate to the project directory:
+    
+    bashCopy code
+    
+    `cd algorithms`
+    
+3.  Run the Python scripts corresponding to the desired algorithms and data structures:
+    
+    bashCopy code
+    
+    `python main.py`
+    
+4.  Explore the challenges available in the `challenges/` directory:
+    
+    bashCopy code
+    
+    `cd challenges`
+    
+5.  Contribute: Feel free to add new algorithms, data structures, or challenges. Open a pull request to share your knowledge with the community.
+    
 
-- **Documentação Clara:**
-  - Explicações detalhadas sobre cada algoritmo e estrutura de dados implementados.
+Contribution
+------------
 
-## Como Usar
+Contributions are welcome! Follow these steps to contribute:
 
-1. Clone o repositório para sua máquina local:
+1.  Fork the repository.
+    
+2.  Create a branch for your contribution:
+    
+    bashCopy code
+    
+    `git checkout -b my-contribution`
+    
+3.  Make the desired changes and add documentation when necessary.
+    
+4.  Commit your changes:
+    
+    bashCopy code
+    
+    `git commit -m "Add binary search algorithm"`
+    
+5.  Push to the branch:
+    
+    bashCopy code
+    
+    `git push origin my-contribution`
+    
+6.  Open a Pull Request.
+    
 
-    ```bash
-    git clone https://github.com/erkylima/algorithms.git
-    ```
+License
+-------
 
-2. Navegue até o diretório do projeto:
-
-    ```bash
-    cd algorithms
-    ```
-
-3. Execute os scripts Python correspondentes aos algoritmos e estruturas de dados desejados:
-
-    ```bash
-    python main.py
-    ```
-
-4. Explore os desafios disponíveis no diretório `desafios/`:
-
-    ```bash
-    cd desafios
-    ```
-
-5. Contribua: Sinta-se à vontade para adicionar novos algoritmos, estruturas de dados ou desafios. Abra um pull request para compartilhar seus conhecimentos com a comunidade.
-
-## Contribuição
-
-Contribuições são bem-vindas! Siga estas etapas para contribuir:
-
-1. Fork o repositório.
-2. Crie uma branch para sua contribuição:
-
-    ```bash
-    git checkout -b minha-contribuicao
-    ```
-
-3. Faça as alterações desejadas e adicione documentação quando necessário.
-4. Commit suas alterações:
-
-    ```bash
-    git commit -m "Adiciona algoritmo de busca binária"
-    ```
-
-5. Push para a branch:
-
-    ```bash
-    git push origin minha-contribuicao
-    ```
-
-6. Abra um Pull Request.
-
-## Licença
-
-Este projeto é licenciado sob a [Licença MIT](LICENSE.md). Sinta-se à vontade para usá-lo, modificá-lo e distribuí-lo conforme necessário.
+This project is licensed under the [MIT License](LICENSE.md). Feel free to use, modify, and distribute it as needed.
