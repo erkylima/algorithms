@@ -5,7 +5,7 @@ from helpers.show_current_list import show_current_list
 
 def execution(algorithm):
     sortable = create_unordered_list()
-
+    sortable.sort()
     show_current_list(sortable)  # perguntar se quer mostrar estado atual da lista
 
     run_algorithm(algorithm, sortable)
