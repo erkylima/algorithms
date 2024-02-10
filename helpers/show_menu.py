@@ -1,3 +1,4 @@
+from data_structure.stack.stack import Stack
 from helpers.execution import execution
 from helpers.recursive_execution import recursive_execution
 from sorting_algorithms import bubble_sort, selection_sort, quick_sort, insertion_sort, merge_sort
@@ -35,8 +36,8 @@ def show_menu():
                 execution(insertion_sort.insertion_sort)
             # elif choice == "6":
             #     LinkedList.run_example()
-            # elif choice == "7":
-            #     Stack.run_example()
+            elif choice == "7":
+                Stack().__menu__()
             # elif choice == "8":
             #     Queue.run_example()
             # elif choice == "9":

@@ -61,6 +61,7 @@ class Stack(object):
                 print("5. Tamanho da Pilha")
                 print("6. Imprimir Pilha")
                 print("7. Verificar se pilha está vazia")
+                print("8. Limpar pilha")
                 print("0. Voltar")
 
                 choice = input("Digite o número da opção desejada: ")
@@ -73,7 +74,7 @@ class Stack(object):
                     self.push(value)
                 elif choice == "2":
                     value = input("Digite o valor: ")
-                    self.push(value)
+                    self.push_string_stack(value)
                 elif choice == "3":
                     value = self.pop()
                     print("Valor removido da pilha: {}".format(value))
@@ -85,13 +86,17 @@ class Stack(object):
                 elif choice == "6":
                     print("Imprimindo Pilha: \n {}".format(self.__str__()))
                 elif choice == "7":
-                    isornot = ""
-                    if self.is_empty():
-                        isornot = "sim"
-                    else:
-                        isornot = "não"
-
+                    isornot = 'sim' if self.is_empty() else 'não'
                     print("Pinha está vazia? {}".format(isornot))
+                elif choice == "8":
+                    self._top = None
+                    self._size = 0
+                    print("Pilha esvaziada")
+                elif choice == "0":
+                    print("Voltando...")
+                    break
+                else:
+                    print("Digite um número2 válido")
             except TypeError:
                 print("Você precisa digitar um texto")
             except:
