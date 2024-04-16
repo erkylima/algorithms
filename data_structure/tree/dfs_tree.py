@@ -59,7 +59,7 @@ def levelOrder(root):
         if node.right:
             queue.append(node.right)
         line += "{}".format(node.info)
-    print(line)
+        print(node.info)
 
 
 tree = BinarySearchTree()
