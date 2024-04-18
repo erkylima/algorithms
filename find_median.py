@@ -29,7 +29,7 @@ def runningMedian(a):
             result.append(last[i])
             continue
         if i == 1:
-            last[i] = float((last[(i)] + last[(i) - 1]) / 2)
+            last[i] = float((last[i] + last[i - 1]) / 2)
             result.append(last[i])
             continue
         if i % 2 != 0:
